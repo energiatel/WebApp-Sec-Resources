@@ -41,8 +41,6 @@ I needed a place to collect all tools, resources, tutorial about web application
 <ul>
   <li>inurl: example.com (removing every new host using -already_known_host)</li>
   <li>Trademark: "© 2015 - 2018 Company Name Inc." depending what format is used (look for it in main domain footer)</li>
-  <li></li>
-  <li></li>
 </ul>
 
 
@@ -57,4 +55,4 @@ I needed a place to collect all tools, resources, tutorial about web application
 <h1>After subdomain enumeration</h1>
 
 <a href="https://github.com/FortyNorthSecurity/EyeWitness"><h2>EyeWitness</h2></a>
-<pre>./EyeWitness.py --all-protocols --timeout 31 --prepend-https -f domain_domain_list.txt</li></pre>
+<pre>./EyeWitness.py --timeout 31 --prepend-https -f domain_domain_list.txt</li></pre>
