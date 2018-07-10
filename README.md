@@ -37,6 +37,23 @@ I needed a place to collect all tools, resources, tutorial about web application
 </ul>
 
 
+<a href="https://www.google.com"><h2>Google (dork)</h2></a>
+<ul>
+  <li>inurl: example.com (removing every new host using -already_known_host)</li>
+  <li>Trademark: "© 2015 - 2018 Company Name Inc." depending what format is used (look for it in main domain footer)</li>
+  <li></li>
+  <li></li>
+</ul>
+
+
+<h2>Others</h2>
+<ul>
+  <li>https://www.robtex.com/</li>
+  <li>https://www.virustotal.com/#/domain/domain.com</li>
+</ul>
+
+
+
 <h1>After subdomain enumeration</h1>
 
 <a href="https://github.com/FortyNorthSecurity/EyeWitness"><h2>EyeWitness</h2></a>
