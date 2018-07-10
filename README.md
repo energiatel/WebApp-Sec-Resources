@@ -62,3 +62,10 @@ I needed a place to collect all tools, resources, tutorial about web application
 
 <a href="https://github.com/FortyNorthSecurity/EyeWitness"><h2>EyeWitness</h2></a>
 <pre>./EyeWitness.py --timeout 31 --prepend-https -f domain_domain_list.txt</li></pre>
+
+<h1>Subdomain takeover</h1>
+
+
+<a href="https://github.com/Ice3man543/SubOver"><h2>SubOver</h2></a>
+<pre>SubOver -l /root/Documents/company_subdomain_list.txt -https -v</pre>
+
