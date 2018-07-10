@@ -24,3 +24,9 @@ I needed a place to collect all tools, resources, tutorial about web application
 
 <a href="https://github.com/blechschmidt/massdns"><h2>MassDNS</h2></a>
 <pre>Not tested yet</pre>
+
+
+<h1>After subdomain enumeration</h1>
+
+<a href="https://github.com/FortyNorthSecurity/EyeWitness"><h2>EyeWitness</h2></a>
+<pre>./EyeWitness.py --all-protocols -f domain_domain_list.txt</li></pre>
