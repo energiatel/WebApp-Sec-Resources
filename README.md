@@ -11,3 +11,7 @@ I needed a place to collect all tools, resources, tutorial about web application
 
 <a href="https://github.com/OJ/gobuster"><h2>Gobuster</h2></a>
 <pre>gobuster -u domain.com -fw -m dns -v -w list.txt -o domain_report_gobuster.txt</pre>
+
+
+<a href="https://github.com/jhaddix/domain"><h2>enumall.sh</h2></a>
+<pre>./enumall.py domain.com</pre>
