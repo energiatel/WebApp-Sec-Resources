@@ -26,6 +26,11 @@ I needed a place to collect all tools, resources, tutorial about web application
 <pre>Not tested yet</pre>
 
 
+<a href="https://github.com/caffix/amass</h2></a>
+<pre>amass -d upwork.com</pre>
+         Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlists">here </a>
+
+
 <a href="https://youtu.be/Qw1nNPiH_Go?t=22m50s"><h2>Burp Suite</h2></a>
 <ul>
   <li>Scanner -> Live scanning -> Live Passive Scanning -> Don't scan</li>
