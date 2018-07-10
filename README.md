@@ -26,6 +26,17 @@ I needed a place to collect all tools, resources, tutorial about web application
 <pre>Not tested yet</pre>
 
 
+<a href="https://youtu.be/Qw1nNPiH_Go?t=22m50s"><h2>Burp Suite</h2></a>
+<ul>
+  <li>Scanner -> Live scanning -> Live Passive Scanning -> Don't scan</li>
+  <li>Spider -> Options -> Form submission -> Don't submit forms or Prompt for guidance</li>
+  <li>Target -> Scope -> "Use advanced scope control" and -> Add -> Host field -> Domain name (eg if it is example.com i use "example" keyword)</li>
+  <li>Manually browse</li>
+  <li>Target -> Site map -> Filter -> Show only in-scope items</li>
+  <li>Target -> Site map -> manually select host to spider, right click and Spider Selected items</li>
+</ul>
+
+
 <h1>After subdomain enumeration</h1>
 
 <a href="https://github.com/FortyNorthSecurity/EyeWitness"><h2>EyeWitness</h2></a>
