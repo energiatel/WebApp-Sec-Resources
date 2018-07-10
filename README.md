@@ -5,6 +5,11 @@ I needed a place to collect all tools, resources, tutorial about web application
 
 <h1>Subdomain enumeration</h1>
 
+<h2>Lists</h2>
+<ul>
+  <li>https://github.com/jhaddix/SecLists/tree/master/Discovery/DNS</li>
+</ul>
+
 <a href="https://github.com/aboul3la/Sublist3r"><h2>Sublist3r</h2></a>
 <pre>python sublist3r.py -d domain.com -o domain_report_sublist3r.txt</li></pre>
 
