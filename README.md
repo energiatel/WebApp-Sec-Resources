@@ -53,6 +53,16 @@ I needed a place to collect all tools, resources, tutorial about web application
   <li>Trademark: "© 2015 - 2018 Company Name Inc." depending what format is used (look for it in main domain footer)</li>
 </ul>
 
+<a href="https://crt.sh/"><h2>crt.sh</h2></a>
+<ul>
+  <li>Insert domain.com and check for SLL certificate to get others domains and subdomains covered by the same certificate</li>
+</ul>
+
+<a href="https://censys.io/"><h2>censys.io</h2></a>
+<ul>
+  <li>Insert domain.com and check for SLL certificate to get others domains and subdomains covered by the same certificate</li>
+</ul>
+
 
 <h2>Others</h2>
 <ul>
