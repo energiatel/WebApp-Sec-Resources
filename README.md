@@ -64,9 +64,7 @@ I needed a place to collect all tools, resources, tutorial about web application
 </ul>
 
 <a href="https://github.com/caffix/amass"><h2>Amass</h2></a>
-<ul>
-  <li>Insert domain.com and check for SLL certificate to get others domains and subdomains covered by the same certificate</li>
-</ul>
+<pre>amass -d upwork.com</pre>
 
 
 <h2>Others</h2>
