@@ -79,7 +79,7 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
 
 
 <a href="https://web.archive.org/"><h2>Archive.org/web</h2></a>
-<preIf i found a 401/403, basic auth or some is locked down</pre>
+<pre>If i found a 401/403, basic auth or some is locked down</pre>
 
 <h1>Subdomain takeover</h1>
 
