@@ -75,7 +75,11 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
 <h1>After subdomain enumeration</h1>
 
 <a href="https://github.com/FortyNorthSecurity/EyeWitness"><h2>EyeWitness</h2></a>
-<pre>./EyeWitness.py --timeout 31 --prepend-https -f domain_domain_list.txt</li></pre>
+<pre>./EyeWitness.py --timeout 31 --prepend-https -f domain_domain_list.txt</pre>
+
+
+<a href="https://web.archive.org/"><h2>Archive.org/web</h2></a>
+<preIf i found a 401/403, basic auth or some is locked down</pre>
 
 <h1>Subdomain takeover</h1>
 
