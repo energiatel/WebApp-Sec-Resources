@@ -28,7 +28,7 @@ I needed a place to collect all tools, resources, tutorial about web application
 
 
 <a href="https://github.com/vysec/DomLink"><h2>DomLink</h2></a>
-<pre>Not tested yet</pre>
+<pre>python domLink.py -D domain.com -o domlink_report_domain.txt</pre>
 
 
 <a href="https://github.com/caffix/amass"><h2>Amass</h2></a>
