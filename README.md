@@ -81,6 +81,12 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
 <a href="https://web.archive.org/"><h2>Archive.org/web</h2></a>
 <pre>If i found a 401/403, basic auth or some is locked down</pre>
 
+
+<a href="https://github.com/tomnomnom/waybackurls"><h2>waybackurls/h2></a>
+<pre>cat domains.txt | waybackurls > urls</pre>
+Get all links from archive.org using a domains list
+
+
 <h1>Subdomain takeover</h1>
 
 
