@@ -33,7 +33,7 @@ I needed a place to collect all tools, resources, tutorial about web application
 
 <a href="https://github.com/caffix/amass</h2></a>
 <pre>amass -d upwork.com</pre>
-         Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlists">here </a>
+Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlists">here</a>
 
 
 <a href="https://youtu.be/Qw1nNPiH_Go?t=22m50s"><h2>Burp Suite</h2></a>
@@ -62,9 +62,6 @@ I needed a place to collect all tools, resources, tutorial about web application
 <ul>
   <li>Insert domain.com and check for SLL certificate to get others domains and subdomains covered by the same certificate</li>
 </ul>
-
-<a href="https://github.com/caffix/amass"><h2>Amass</h2></a>
-<pre>amass -d upwork.com</pre>
 
 
 <h2>Others</h2>
