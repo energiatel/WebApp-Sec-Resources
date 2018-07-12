@@ -63,6 +63,11 @@ I needed a place to collect all tools, resources, tutorial about web application
   <li>Insert domain.com and check for SLL certificate to get others domains and subdomains covered by the same certificate</li>
 </ul>
 
+<a href="https://github.com/caffix/amass"><h2>Amass</h2></a>
+<ul>
+  <li>Insert domain.com and check for SLL certificate to get others domains and subdomains covered by the same certificate</li>
+</ul>
+
 
 <h2>Others</h2>
 <ul>
