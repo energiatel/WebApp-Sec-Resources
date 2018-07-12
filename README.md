@@ -31,7 +31,7 @@ I needed a place to collect all tools, resources, tutorial about web application
 <pre>Not tested yet</pre>
 
 
-<a href="https://github.com/caffix/amass">Amass</h2></a>
+<a href="https://github.com/caffix/amass"><h2>Amass</h2></a>
 <pre>amass -d upwork.com</pre>
 Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlists">here</a>
 
