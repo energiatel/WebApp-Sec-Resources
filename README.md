@@ -193,5 +193,6 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 
 <h2>References</h2>
 <ul>
-  <li><a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)">https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)</a></li>
+  <li><a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)#Server-side_HPP">Server side HPP manual testing workflow</a></li>
+  <li><a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)#Client-side_HPP">Client side HPP manual testing workflow</a></li>
  </ul>
