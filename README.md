@@ -111,3 +111,79 @@ An interesting source to understand IF and HOW is possible a subdomain takeover
   <li>Replace ampersand character "&" with "%26"</li>
   <li>Change parameter position</li>
  </ul>
+
+
+<a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)#Expected_Behavior_by_Application_Server"><h2>Expected Behavior by Application Server</h2></a>
+Given the URL and querystring: http://example.com/?color=red&color=blue
+<table>
+
+<tbody><tr>
+<th> Web Application Server Backend </th>
+<th> Parsing Result </th>
+<th> Example
+</th></tr>
+<tr>
+<td> ASP.NET / IIS </td>
+<td> All occurrences concatenated with a comma </td>
+<td> color=red,blue
+</td></tr>
+<tr>
+<td> ASP / IIS </td>
+<td> All occurrences concatenated with a comma</td>
+<td> color=red,blue
+</td></tr>
+<tr>
+<td> PHP / Apache </td>
+<td> Last occurrence only </td>
+<td> color=blue
+</td></tr>
+<tr>
+<td> PHP / Zeus </td>
+<td> Last occurrence only </td>
+<td> color=blue
+</td></tr>
+<tr>
+<td> JSP, Servlet / Apache Tomcat </td>
+<td> First occurrence only </td>
+<td> color=red
+</td></tr>
+<tr>
+<td> JSP, Servlet / Oracle Application Server 10g </td>
+<td> First occurrence only </td>
+<td> color=red
+</td></tr>
+<tr>
+<td> JSP, Servlet / Jetty </td>
+<td> First occurrence only </td>
+<td> color=red
+</td></tr>
+<tr>
+<td> IBM Lotus Domino </td>
+<td> Last occurrence only </td>
+<td> color=blue
+</td></tr>
+<tr>
+<td> IBM HTTP Server </td>
+<td> First occurrence only </td>
+<td> color=red
+</td></tr>
+<tr>
+<td> mod_perl, libapreq2 / Apache </td>
+<td> First occurrence only </td>
+<td> color=red
+</td></tr>
+<tr>
+<td> Perl CGI / Apache </td>
+<td> First occurrence only </td>
+<td> color=red
+</td></tr>
+<tr>
+<td> mod_wsgi (Python) / Apache </td>
+<td> First occurrence only </td>
+<td> color=red
+</td></tr>
+<tr>
+<td> Python / Zope </td>
+<td> All occurrences in List data type </td>
+<td> color=['red','blue']
+</td></tr></tbody></table>
