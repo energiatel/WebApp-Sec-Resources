@@ -123,6 +123,11 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
 <a href="https://github.com/maK-/parameth"><h2>Discover unknown parameters in script with parameth</h2></a>
 <pre>Will test soon.</pre>
 
+
+<a href="https://github.com/PortSwigger/backslash-powered-scanner"><h2>Backslash Powered Scanning (Vulnerability scanner)</h2></a>
+<pre>Too early to say something</pre>
+
+
 <h1>Oper redirect</h1>
 
 <h2>Typical parameters to look at</h2>
