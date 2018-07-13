@@ -193,9 +193,5 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 
 <h2>References</h2>
 <ul>
-  <li>a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)">https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)</a></li>
-  <li>Replace ampersand character "&" with "%26"</li>
-  <li>Change parameter position</li>
-  <li>Try to change typical or intelligible parameters names (edit, view, delete)</li>
-  <li>Change HTTP method (POST if GET and viceversa)</li>
+  <li><a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)">https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)</a></li>
  </ul>
