@@ -9,6 +9,7 @@ I needed a place to collect all tools, resources, tutorial about web application
 <ul>
   <li>https://github.com/jhaddix/SecLists/tree/master/Discovery/DNS</li>
   <li>https://github.com/caffix/amass/tree/master/wordlists</li>
+  <li>https://github.com/danielmiessler/RobotsDisallowed</li>
 </ul>
 
 <a href="https://github.com/aboul3la/Sublist3r"><h2>Sublist3r</h2></a>
@@ -116,6 +117,8 @@ An interesting source to understand IF and HOW is possible a subdomain takeover
 
 <a href="https://github.com/OJ/gobuster"><h2>Gobuster (again)</h2></a>
 <pre>gobuster -u domain.com -fw -v -w list.txt -o domain_report_gobuster.txt</pre>
+An interestin list is <a href="https://github.com/danielmiessler/RobotsDisallowed">RobotsDisallowed</a><br>
+An useful list to add while bruteforcing for subdirectory maybe <a href="https://github.com/jhaddix/SecLists/blob/master/Discovery/Web-Content/Common-DB-Backups.txt">this DB backup filename</a>
 
 <h1>Oper redirect</h1>
 
