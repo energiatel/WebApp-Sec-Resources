@@ -110,6 +110,8 @@ An interesting source to understand IF and HOW is possible a subdomain takeover
   <li>Add new parameter with the same name (e.g. ?par1=123&par2=456&par1=789)</li>
   <li>Replace ampersand character "&" with "%26"</li>
   <li>Change parameter position</li>
+  <li>Try to change typical or intelligible parameters names (edit, view, delete)</li>
+  <li>Change HTTP method (POST if GET and viceversa)</li>
  </ul>
 
 
@@ -187,3 +189,4 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 <td> All occurrences in List data type </td>
 <td> color=['red','blue']
 </td></tr></tbody></table>
+
