@@ -71,6 +71,10 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
 </ul>
 
 
+<a href="https://github.com/nahamsec/JSParser"><h2>JSParser</h2></a>
+<pre>python handler.py</pre>
+<pre>Then visit http://localhost:8008</pre>
+
 
 <h1>After subdomain enumeration</h1>
 
