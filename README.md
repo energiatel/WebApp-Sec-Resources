@@ -71,6 +71,14 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
 </ul>
 
 
+<a href="https://youtu.be/Qw1nNPiH_Go?t=1h9m26s"><h2>Search all js for hidden path and urls with BurpSuite</h2></a>
+<ul>
+  <li>Right click on target site/</li>
+  <li>Engagement tools -> Find scripts -> Search</li>
+  <li>Once found -> Export script (eg. for use in some JS parser)</li>
+</ul>
+
+
 <a href="https://github.com/nahamsec/JSParser"><h2>JSParser</h2></a>
 <pre>python handler.py</pre>
 <pre>Then visit http://localhost:8008</pre>
