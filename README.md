@@ -98,8 +98,16 @@ Get all links from archive.org using a domains list
 An interesting source to understand IF and HOW is possible a subdomain takeover
 
 
-
 <h1>Oper redirect</h1>
 
 <h2>Typical parameters to look at</h2>
 <pre>redirect_to=, domain_name=, checkout_url=, r=, u=</pre>
+
+<h1>HTTP Parameter pollution</h1>
+
+<h2>Some tricks</h2>
+<ul>
+  <li>Add new parameter with the same name (e.g. ?par1=123&par2=456&par1=789)</li>
+  <li>Replace ampersand character "&" with "%26"</li>
+  <li>Change parameter position</li>
+ </ul>
