@@ -112,6 +112,10 @@ Get all links from archive.org using a domains list
 <a href="https://github.com/EdOverflow/can-i-take-over-xyz"><h2>Can i take over xyz</h2></a>
 An interesting source to understand IF and HOW is possible a subdomain takeover
 
+<h1>Content discovery</h1>
+
+<a href="https://github.com/OJ/gobuster"><h2>Gobuster (again)</h2></a>
+<pre>gobuster -u domain.com -fw -v -w list.txt -o domain_report_gobuster.txt</pre>
 
 <h1>Oper redirect</h1>
 
