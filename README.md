@@ -99,3 +99,7 @@ An interesting source to understand IF and HOW is possible a subdomain takeover
 
 
 
+<h1>Oper redirect</h1>
+
+<h2>Typical parameters to look at</h2>
+<pre>redirect_to=, domain_name=, checkout_url=, r=, u=</pre>
