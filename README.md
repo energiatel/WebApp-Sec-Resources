@@ -76,6 +76,9 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
 <pre>Then visit http://localhost:8008</pre>
 
 
+<a href="https://github.com/GerbenJavado/LinkFinder"><h2>LinkFinder</h2></a>
+<pre>Sounds interesting. Have to test it yet</pre>
+
 <h1>After subdomain enumeration</h1>
 
 <a href="https://github.com/FortyNorthSecurity/EyeWitness"><h2>EyeWitness</h2></a>
