@@ -120,6 +120,9 @@ An interesting source to understand IF and HOW is possible a subdomain takeover
 An interestin list is <a href="https://github.com/danielmiessler/RobotsDisallowed">RobotsDisallowed</a><br>
 An useful list to add while bruteforcing for subdirectory maybe <a href="https://github.com/jhaddix/SecLists/blob/master/Discovery/Web-Content/Common-DB-Backups.txt">this DB backup filename</a>
 
+<a href="https://github.com/maK-/parameth"><h2>Discover unknown parameters in script with parameth</h2></a>
+<pre>Will test soon.</pre>
+
 <h1>Oper redirect</h1>
 
 <h2>Typical parameters to look at</h2>
