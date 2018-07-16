@@ -235,3 +235,15 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 <ul>
   <li>If a site is sending CSRF token with POST request, try changing its value or removing it to ensure the server is validating its existence.</li>
  </ul>
+
+
+<h1>File Upload</h1>
+
+
+<h2>Some tricks</h2>
+<ul>
+  <li>Rename file extension. Eg. file.png -> file.png.php, file.php -> file.php.png</li>
+  <li>Rename file extension changing case. Eg. file.png -> file.png.PHP, file.php -> file.PhP.png</li>  
+  <li>Use unusual file extension like pht (can execute php in html)</li> 
+  <li>Insert a Null Byte in file name: shell.php<b>%00</b>1.jpg or shell.php\x00.jpg</li>
+ </ul>
