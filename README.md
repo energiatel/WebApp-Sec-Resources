@@ -243,7 +243,9 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 <h2>Some tricks</h2>
 <ul>
   <li>Rename file extension. Eg. file.png -> file.png.php, file.php -> file.php.png</li>
-  <li>Rename file extension changing case. Eg. file.png -> file.png.PHP, file.php -> file.PhP.png</li>  
+  <li>Rename file extension changing case. Eg. file.png -> file.png.PHP, file.php -> file.PhP.png</li>
+  <li>Change extension position. Eg. file.png.php -> file_png.php</li>   
   <li>Use unusual file extension like pht (can execute php in html)</li> 
   <li>Insert a Null Byte in file name: shell.php<b>%00</b>1.jpg or shell.php\x00.jpg</li>
+  <li>Insert a payload in Exif Headers</li> 
  </ul>
