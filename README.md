@@ -128,7 +128,7 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
 <pre>Too early to say something</pre>
 
 
-<h1>Oper redirect</h1>
+<h1>Open redirect</h1>
 
 <h2>Typical parameters to look at</h2>
 <pre>redirect_to=, domain_name=, checkout_url=, r=, u=</pre>
@@ -225,4 +225,13 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 <ul>
   <li><a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)#Server-side_HPP">Server side HPP manual testing workflow</a></li>
   <li><a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)#Client-side_HPP">Client side HPP manual testing workflow</a></li>
+ </ul>
+
+
+<h1>CSRF</h1>
+
+
+<h2>Some tricks</h2>
+<ul>
+  <li>If a site is sending CSRF token with POST request, try changing its value or removing it to ensure the server is validating its existence.</li>
  </ul>
