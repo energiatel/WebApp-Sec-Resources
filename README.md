@@ -248,4 +248,5 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
   <li>Use unusual file extension like pht (can execute php in html)</li> 
   <li>Insert a Null Byte in file name: shell.php<b>%00</b>1.jpg or shell.php\x00.jpg</li>
   <li>Insert a payload in Exif Headers</li> 
+  <li>Upload a huge file so to get a DOS on server</li> 
  </ul>
