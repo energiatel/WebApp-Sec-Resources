@@ -258,5 +258,5 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 
 <h2>Some tricks</h2>
 <ul>
-  <li>Try blind XSS injection into User-Agent or Referrer/Origin Headers. <a href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher-revived/?src=search">Firefox User Agent Switcher</a> extension can be useful to change UA on fly</li>
+  <li><a href="https://medium.com/bugbountywriteup/blind-xss-for-beginners-c88e48083071">Try blind XSS injection into User-Agent</a> or Referrer/Origin Headers. <a href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher-revived/?src=search">Firefox User Agent Switcher</a> extension can be useful to change UA on fly</li>
  </ul>
