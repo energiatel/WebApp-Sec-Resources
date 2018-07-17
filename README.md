@@ -251,3 +251,12 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
   <li>Upload a huge file so to get a DOS on server</li> 
   <li>If filename is not changed before being inserted in DB, maybe possible an Sql Injection</li> 
  </ul>
+
+
+<h1>XSS</h1>
+
+
+<h2>Some tricks</h2>
+<ul>
+  <li>Try blind XSS injection into User-Agent or Referrer/Origin Headers. <a href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher-revived/?src=search">Firefox User Agent Switcher</a> extension can be useful to change UA on fly</li>
+ </ul>
