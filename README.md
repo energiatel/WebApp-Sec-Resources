@@ -256,7 +256,7 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 <h1>XSS</h1>
 
 
-<h2>Some tricks</h2>
+<h2>[BLIND XSS] Some tricks</h2>
 <ul>
   <li><a href="https://medium.com/bugbountywriteup/blind-xss-for-beginners-c88e48083071">Try blind XSS injection into User-Agent</a> or Referrer/Origin Headers. <a href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher-revived/?src=search">Firefox User Agent Switcher</a> extension can be useful to change UA on fly</li>
  </ul>
