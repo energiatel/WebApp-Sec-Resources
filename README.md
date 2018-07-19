@@ -237,6 +237,15 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
  </ul>
 
 
+<h1>SSRF</h1>
+
+
+<h2>Some tricks</h2>
+<ul>
+  <li><a href="https://gist.github.com/jhaddix/78cece26c91c6263653f31ba453e273b">Cloud Metadata Dictionary useful for SSRF Testing</a></li>
+ </ul>
+
+
 <h1>File Upload</h1>
 
 
