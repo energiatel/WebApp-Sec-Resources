@@ -103,7 +103,7 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
 Get all links from archive.org using a domains list
 
 
-<h1>Subdomain takeover</h1>
+<h1>Subdomain takeover & Cloud misconfiguration</h1>
 
 
 <a href="https://github.com/Ice3man543/SubOver"><h2>SubOver</h2></a>
@@ -112,6 +112,9 @@ Get all links from archive.org using a domains list
 
 <a href="https://github.com/EdOverflow/can-i-take-over-xyz"><h2>Can i take over xyz</h2></a>
 An interesting source to understand IF and HOW is possible a subdomain takeover
+
+
+<a href="https://github.com/sa7mon/S3Scanner"><h2>Scan for open S3 buckets and dump</h2></a>
 
 <h1>Content discovery</h1>
 
