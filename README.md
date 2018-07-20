@@ -281,4 +281,9 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 <a href="https://github.com/faizann24/XssPy"><h2>XssPy</h2></a>
 <pre>python XssPy.py -d website.com -v -e</pre>
 
+<h2>Tutorials and resources</h2>
+<ul>
+  <li><a href="https://forum.bugcrowd.com/t/tutorial-injectx-to-find-xss/790">Tutorial: InjectX to Find XSS</a></li>
+</ul>
+
 
