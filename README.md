@@ -272,3 +272,13 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 <ul>
   <li><a href="https://medium.com/bugbountywriteup/blind-xss-for-beginners-c88e48083071">Try blind XSS injection into User-Agent</a> or Referrer/Origin Headers. <a href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher-revived/?src=search">Firefox User Agent Switcher</a> extension can be useful to change UA on fly</li>
  </ul>
+
+
+<a href="https://github.com/s0md3v/XSStrike"><h2>XSStrike</h2></a>
+<pre>python3 xsstrike</pre>
+
+
+<a href="https://github.com/faizann24/XssPy"><h2>XssPy</h2></a>
+<pre>python XssPy.py -d website.com -v -e</pre>
+
+
