@@ -264,6 +264,11 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
   <li>If filename is not changed before being inserted in DB, maybe possible an Sql Injection</li> 
  </ul>
 
+<h2>Some tricks</h2>
+<ul>
+  <li><a href="https://hackerone.com/reports/357858">Upload php as image</a></li>
+ </ul>
+
 
 <h1>XSS</h1>
 
