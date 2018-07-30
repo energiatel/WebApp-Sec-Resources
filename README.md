@@ -133,9 +133,14 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
 
 <h1>Open redirect</h1>
 
-<h2>Typical parameters to look at</h2>
-<pre>redirect_to=, domain_name=, checkout_url=, r=, u=</pre>
+<h2>Some tricks</h2>
+<ul>
+  <li>Typical parameters to look at: redirect_to=, domain_name=, checkout_url=, r=, u=, returnTo=, return, go, redirect</li>
+  <li><a href="https://zseano.com/tutorials/1.html">Common pages are:</a>login, register, logout, change site language, links in emails. </li>
+</ul>
 
+
+ 
 <h1>HTTP Parameter pollution</h1>
 
 <h2>Some tricks</h2>
