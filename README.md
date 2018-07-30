@@ -145,6 +145,7 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
       <li>return=</li>
       <li>go=</li>
       <li>redirect=</li>
+      <li>url=</li>
     </ul>
   </li>
   <li><a href="https://zseano.com/tutorials/1.html">Common pages are: </a>login, register, logout, change site language, links in emails. </li>
