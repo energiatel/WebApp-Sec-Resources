@@ -135,8 +135,19 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
 
 <h2>Some tricks</h2>
 <ul>
-  <li>Typical parameters to look at: redirect_to=, domain_name=, checkout_url=, r=, u=, returnTo=, return, go, redirect</li>
-  <li><a href="https://zseano.com/tutorials/1.html">Common pages are:</a>login, register, logout, change site language, links in emails. </li>
+  <li>Typical parameters to look at:
+    <ul>
+      <li>redirect_to=</li>
+      <li>domain_name=</li>
+      <li>checkout_url=</li>
+      <li>r=<li>u=</li>
+      <li>returnTo=</li>
+      <li>return=</li>
+      <li>go=</li>
+      <li>redirect=</li>
+    </ul>
+  </li>
+  <li><a href="https://zseano.com/tutorials/1.html">Common pages are: </a>login, register, logout, change site language, links in emails. </li>
 </ul>
 
 
