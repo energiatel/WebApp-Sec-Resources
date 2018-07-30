@@ -292,3 +292,27 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 </ul>
 
 
+<h1>Information disclosure</h1>
+
+
+<h2>Php Information disclosure</h2>
+<ul>
+  <li><a href="https://blog.it-securityguard.com/bugbounty-yahoo-phpinfo-php-disclosure-2/">Scan a CIDR for phpinfo() to get php information disclosure</a>.<br>This script can scan huge amount of IPs for phpinfo.php file.<pre>#!/bin/bash
+for ipa in 98.13{6..9}.{0..255}.{0..255}; do
+wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
+ </ul>
+
+
+<a href="https://github.com/s0md3v/XSStrike"><h2>XSStrike</h2></a>
+<pre>python3 xsstrike</pre>
+
+
+<a href="https://github.com/faizann24/XssPy"><h2>XssPy</h2></a>
+<pre>python XssPy.py -d website.com -v -e</pre>
+
+<h2>Tutorials and resources</h2>
+<ul>
+  <li><a href="https://forum.bugcrowd.com/t/tutorial-injectx-to-find-xss/790">Tutorial: InjectX to Find XSS</a></li>
+</ul>
+
+
