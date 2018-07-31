@@ -156,6 +156,12 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
   <li><a href="https://zseano.com/tutorials/1.html">Common pages are: </a>login, register, logout, change site language, links in emails. </li>
 </ul>
 
+<h2>Some resources and tutorial</h2>
+
+<ul>
+  <li><a href="https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20redirect">By swisskyrepo</a></li>  
+</ul>
+
 
 <h2><a href="https://zseano.com/tutorials/1.html">Methods for bypassing filters</a></h2>
 <ul><li>java%0d%0ascript%0d%0a:alert(0)<br>
