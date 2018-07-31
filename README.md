@@ -138,6 +138,11 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
 
 <h1>Open redirect</h1>
 
+<h2>Lists</h2>
+<ul>
+  <li>https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20redirect</li>
+</ul>
+
 <h2>Some tricks</h2>
 <ul>
   <li>Typical parameters to look at:
