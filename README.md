@@ -64,6 +64,11 @@ Lists can be found <a href="https://github.com/caffix/amass/tree/master/wordlist
   <li>Insert domain.com and check for SLL certificate to get others domains and subdomains covered by the same certificate</li>
 </ul>
 
+<a href="https://censys.io/"><h2>crunchbase.com</h2></a>
+<ul>
+  <li>Can find information, related companies, new acquisition and a lot of other stuff about a company and its domain(s)</li>
+</ul>
+
 
 <h2>Others</h2>
 <ul>
