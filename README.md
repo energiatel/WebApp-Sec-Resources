@@ -357,3 +357,16 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
 </ul>
 
 
+<h1>Application logic</h1>
+
+
+<h2>Ways data are transmitted via client</h2>
+<ul>
+  <li>Hidden form field</li>
+<li>HTTP Cookies</li>
+<li>URL Parameters (?name=value)</li>
+<li>Referer header</li>
+<li>Opaque data (encrypted or obfuscated data in hidden form field, in cookie etc)</li>
+<li>ViewState in ASP.NET (if not protected with MAC protection)</li>
+ </ul>
+ Also take a look to fields length limit in form fields (can be changed?), script-based validation (eg javascript: can be overwritten or deleted?), disabled elements (are they processed by server?)
