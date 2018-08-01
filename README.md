@@ -386,3 +386,44 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
 <li>ViewState in ASP.NET (if not protected with MAC protection)</li>
  </ul>
  Also take a look to fields length limit in form fields (can be changed?), script-based validation (eg javascript: can be overwritten or deleted?), disabled elements (are they processed by server?)
+
+
+
+<h2>Ways data are transmitted via client</h2>
+<ul>
+  <li>Hidden form field</li>
+<li>HTTP Cookies</li>
+<li>URL Parameters (?name=value)</li>
+<li>Referer header</li>
+<li>Opaque data (encrypted or obfuscated data in hidden form field, in cookie etc)</li>
+<li>ViewState in ASP.NET (if not protected with MAC protection)</li>
+ </ul>
+ 
+<h2>Authentication</h2>
+
+<h3>Bad password</h3>
+<ul>
+  <li>Too short or blank</li>
+  <li>Common dictionary words or names</li>
+  <li>Same as username </li>
+  <li>Set to default value</li>
+</ul>
+
+<h3>Brute forcible login</h3>
+<ul>
+  <li>No limits un login attempts </li>
+  <li>Common dictionary words or names</li>
+  <li>Stored in clear text (no need to use any encryption to bruteforce)</li>
+  <li>Login attempts number only on client side (eh cookie such as failedLogin = 1)</li>
+  <li>Login attempts number held in current session (so only have to obtain fresh session eg deleting session cookie)</li>
+  <li>Account locked after a certain number of login attempts but application still confirm if password is correct. In this case maybe account is unlocked after certain delay automatically</li>
+</ul>
+
+<h3>Verbose failed login message </h3>
+<ul>
+  <li>Application response whether the reason for failure was unrecognised username or wrong password (so can iterate with common username list to guess a valid one. After can do the same for password)</li>
+  <li>Username disclosure in registration form (to prevent duplicates) or password change form or forgotten password function</li>
+  <li>Predictable username (username is email address, email name or automatically generated as user123 user124 user125)</li>
+  <li>Subtle failed login response when wrong or valid username is provided. Response may appears the same but cookie, http response or html code can contains differences</li>
+  <li>Time attacks: different response time for wrong and valid username. Try it with a common username list and if possible with at least one valid username</li>
+</ul>
