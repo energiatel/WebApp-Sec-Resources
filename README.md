@@ -419,11 +419,20 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Account locked after a certain number of login attempts but application still confirm if password is correct. In this case maybe account is unlocked after certain delay automatically</li>
 </ul>
 
-<h3>Verbose failed login message </h3>
+<h3>Verbose failed login message</h3>
 <ul>
   <li>Application response whether the reason for failure was unrecognised username or wrong password (so can iterate with common username list to guess a valid one. After can do the same for password)</li>
   <li>Username disclosure in registration form (to prevent duplicates) or password change form or forgotten password function</li>
   <li>Predictable username (username is email address, email name or automatically generated as user123 user124 user125)</li>
   <li>Subtle failed login response when wrong or valid username is provided. Response may appears the same but cookie, http response or html code can contains differences</li>
   <li>Time attacks: different response time for wrong and valid username. Try it with a common username list and if possible with at least one valid username</li>
+</ul>
+
+<h3>Password change function</h3>
+<ul>
+  <li>Sometimes this function is accessible without authentication</li>
+  <li>Allow unrestricted (eg no rate limits) guesses of existing password</li>
+  <li>Verbose message for username validity</li>
+  <li>New password and confirm password fields may change their value if existing password is valid or if current and new password are identical</li>
+  <li>If this function is accessible only for authenticaticated users, maybe it hide somewhere  (hidden form field, cookie, other) the username whom which password is going to be changed. Try to override this hidden username </li>
 </ul>
