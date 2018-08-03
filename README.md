@@ -436,3 +436,14 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>New password and confirm password fields may change their value if existing password is valid or if current and new password are identical</li>
   <li>If this function is accessible only for authenticaticated users, maybe it hide somewhere  (hidden form field, cookie, other) the username whom which password is going to be changed. Try to override this hidden username </li>
 </ul>
+
+<h3>Forgotten password function</h3>
+<ul>
+  <li>Easy guessable challenge (public information as mother's name, birthday)</li>
+  <li>Bruteforcible response to challenge</li>
+  <li>Password recover hint equal to password</li>
+  <li>User dropped in authenticated session after successfull completion of a challenge</li>
+  <li>Recovery URL sent to an address which is specified and not to registered email address</li>
+  <li>Recovery URL or user email visible in hidden fields or in cookie</li>
+  <li>Password reset after successfull completion of challenge</li>
+</ul>
