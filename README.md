@@ -495,10 +495,30 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
 </ul>
 
 
-<h3>Insecure distribution of credentials </h3>
+<h3>Insecure distribution of credentials</h3>
 <ul>
   <li>Insecure distribution of credentials</li>
   <li>Majority of users will not modify initial credentials</li>
   <li>Activation token can be guessed</li>
   <li>Username and password sent together</li>
+</ul>
+
+<h2>Implementation flaws in authentication </h2>
+
+<h3>Fail-open logic mechanism</h3>
+<ul>
+  <li>If username or password are empty, the application throws an exception and login succeed</li>
+</ul>
+
+<h3>Multistage login mechanism</h3>
+<ul>
+  <li>Application may assume that user who access to stage two have cleared stage one</li>
+  <li>Application may trust data on stage two because this was validated on stage one</li>
+  <li>Application assume that the same user identity is used in every stage</li>
+</ul>
+
+<h3>Insecure storage of credentials</h3>
+<ul>
+  <li>Passwords stored in clear text</li>
+  <li>Passwords encrypted in standard algorithm</li>
 </ul>
