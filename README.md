@@ -428,6 +428,7 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Time attacks: different response time for wrong and valid username. Try it with a common username list and if possible with at least one valid username</li>
 </ul>
 
+
 <h3>Password change function</h3>
 <ul>
   <li>Sometimes this function is accessible without authentication</li>
@@ -436,6 +437,7 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>New password and confirm password fields may change their value if existing password is valid or if current and new password are identical</li>
   <li>If this function is accessible only for authenticaticated users, maybe it hide somewhere  (hidden form field, cookie, other) the username whom which password is going to be changed. Try to override this hidden username </li>
 </ul>
+
 
 <h3>Forgotten password function</h3>
 <ul>
@@ -446,4 +448,57 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Recovery URL sent to an address which is specified and not to registered email address</li>
   <li>Recovery URL or user email visible in hidden fields or in cookie</li>
   <li>Password reset after successfull completion of challenge</li>
+</ul>
+
+
+<h3>Remember me function</h3>
+<ul>
+  <li>Only username is stored in cookie which is used to allow user access</li>
+  <li>Only user ID or another identifier is stored on cookie which is used to allow user access</li>on logged in computer</li>
+</ul>
+
+
+<h3>User impersonate function </h3>
+<ul>
+  <li>No access control so anyone who knows this function URL can use it</li>
+  <li>User controllable data may determine which user is impersonated</li>
+  <li>If administrators accounts may be impersonated, attacker can gain full control of the application</li>
+  <li>A default password is used to impersonate any user on login function </li>
+</ul>
+
+
+<h3>Incomplete validation of credentials</h3>
+<ul>
+  <li>Only firsts password n character are validated</li>
+  <li>Case insensitive check of password</li>
+  <li>Unusual characters stripped before checking password</li>
+</ul>
+
+
+<h3>Non unique username</h3>
+<ul>
+  <li>May append that two users can register with same password</li>
+  <li>Unpredictable conseguences on users login</li>
+</ul>
+
+
+<h3>Predictable username</h3>
+<ul>
+  <li>Usernames can be nonintrusively discovered</li>
+</ul>
+
+
+<h3>Predictable initial password </h3>
+<ul>
+  <li>Default password for any new account </li>
+  <li>The means of generating passwords can be replicated by an attacker</li>
+</ul>
+
+
+<h3>Insecure distribution of credentials </h3>
+<ul>
+  <li>Insecure distribution of credentials</li>
+  <li>Majority of users will not modify initial credentials</li>
+  <li>Activation token can be guessed</li>
+  <li>Username and password sent together</li>
 </ul>
