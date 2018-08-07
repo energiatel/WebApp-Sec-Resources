@@ -535,3 +535,24 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Passwords stored in clear text</li>
   <li>Passwords encrypted in standard algorithm</li>
 </ul>
+
+<h1>Attacking session management</h1>
+
+
+
+
+<h2>Token generation</h2>
+<ul>
+  <li>Meaningful tokens</li>
+  <li>Can be decrypted and its structure disclosed</li>
+  <li>May be not all components in decrypted token are validated server side. So fuzzing become faster</li>
+ </ul>
+
+<h2>Predictable tokens</h2>
+<ul>
+  <li>With a small sample of tokens it's possible to guess all session tokens</li>
+  <li>Concealed sequences: try to discover mean of generating </li>
+  <li>Time dependency: eg token contain ID and timestamp. With this predictable pattern it's easy to brute force and gain a valid session token</li>
+  <li>Weak random number generation: random generation may be deterministic, eg generated based on user's ip (php 5.3.2 with phpwn tool)</li>
+  <li>Burp can test quality of randomness with a sample of session tokens and sequencer</li>
+ </ul>
