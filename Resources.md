@@ -9,7 +9,7 @@
 <h2>Tutorials</h2>
 
 <ul>
-<li><a href="https://forum.bugcrowd.com/t/researcher-resources-tools/167">A lot of tutorials on various vulnerability by bugcrowd researcher</a>
+<li><a href="https://forum.bugcrowd.com/t/researcher-resources-tutorials/370">A lot of tutorials on various vulnerability by bugcrowd researcher</a>
 </ul>
 
 
