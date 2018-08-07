@@ -17,7 +17,15 @@
 
 <ul>
 <li><a href="https://forum.bugcrowd.com/t/researcher-resources-tools/167">https://forum.bugcrowd.com/t/researcher-resources-tools/167</a>
-<li><a href="https://github.com/blackthorne/Codetective">Codetective: determine the crypto/encoding algorithm used according to traces from its representation</a></li>
+
+</ul>
+
+
+<h3>Encode decode algorithm</h3>
+<ul>
+  <li><a href="https://github.com/blackthorne/Codetective">Codetective: determine the crypto/encoding algorithm used according to traces from its representation</a></li>
+  <li></li>
+  <li></li>
 </ul>
 
 <h2>RCE</h2>
