@@ -204,6 +204,21 @@ An useful list to add while bruteforcing for subdirectory maybe <a href="https:/
   <li>Change HTTP method (POST if GET and viceversa)</li>
  </ul>
 
+<h2><a href="https://forum.bugcrowd.com/t/how-do-you-approach-a-target/293/3">Test on parameters: what happens if...</a></h2>
+<ul>
+  <li>you put in a minus number?</li>
+  <li>you increment or decrement the number?</li>
+  <li>you put in a really large number?</li>
+  <li>you put in a string or symbol characters?</li>
+  <li>you try traverse a directory with …/</li>
+  <li>you put in XSS vectors?</li>
+  <li>you put in SQLI vectors?</li>
+  <li>you put in non-ascii characters?</li>
+  <li>you mess with the variable type such as casting a string to an array</li>
+  <li>you use null characters or no value</li>
+ </ul>
+
+
 
 <a href="https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_(OTG-INPVAL-004)#Expected_Behavior_by_Application_Server"><h2>Expected Behavior by Application Server</h2></a>
 Given the URL and querystring: http://example.com/?color=red&color=blue
