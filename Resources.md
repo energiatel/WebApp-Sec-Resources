@@ -7,7 +7,8 @@
 <h2>Tools</h2>
 
 <ul>
-<li><a href="https://forum.bugcrowd.com/t/researcher-resources-tools/167">https://forum.bugcrowd.com/t/researcher-resources-tools/167</a></li>
+<li><a href="https://forum.bugcrowd.com/t/researcher-resources-tools/167">https://forum.bugcrowd.com/t/researcher-resources-tools/167</a>
+<li><a href="https://github.com/blackthorne/Codetective">Codetective: determine the crypto/encoding algorithm used according to traces from its representation</a></li>
 </ul>
 
 <h2>Others</h2>
