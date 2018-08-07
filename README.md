@@ -556,3 +556,8 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Weak random number generation: random generation may be deterministic, eg generated based on user's ip (php 5.3.2 with phpwn tool)</li>
   <li>Burp can test quality of randomness with a sample of session tokens and sequencer</li>
  </ul>
+
+<h2>Encrypted tokens</h2>
+<ul>
+  <li>TOdo</li>
+ </ul>
