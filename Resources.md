@@ -20,6 +20,12 @@
 <li><a href="https://github.com/blackthorne/Codetective">Codetective: determine the crypto/encoding algorithm used according to traces from its representation</a></li>
 </ul>
 
+<h2>RCE</h2>
+
+<ul>
+<li><a href="https://www.exploit-db.com/papers/12885/">How to find RCE in scripts (with examples)</a></li>
+</ul>
+
 <h2>Others</h2>
 
 <ul>
