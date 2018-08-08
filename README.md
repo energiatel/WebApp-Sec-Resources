@@ -114,6 +114,9 @@ Get all links from archive.org using a domains list
 <a href="https://github.com/Ice3man543/SubOver"><h2>SubOver</h2></a>
 <pre>SubOver -l /root/Documents/company_subdomain_list.txt -https -v</pre>
 
+<a href="https://github.com/haccer/subjack"><h2>subjack</h2></a>
+<pre>./subjack -w subdomains.txt -o subjack_results.txt -ssl -a -v</pre>
+
 
 <a href="https://github.com/EdOverflow/can-i-take-over-xyz"><h2>Can i take over xyz</h2></a>
 An interesting source to understand IF and HOW is possible a subdomain takeover
