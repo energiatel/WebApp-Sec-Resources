@@ -16,14 +16,14 @@
 <h1>Tools</h1>
 
 <ul>
-<li><a href="https://forum.bugcrowd.com/t/researcher-resources-tools/167">https://forum.bugcrowd.com/t/researcher-resources-tools/167</a>
-  <li><a href="https://github.com/psypanda/hashID">hashID | hash-identifier</a></li>
+<li><a href="https://forum.bugcrowd.com/t/researcher-resources-tools/167">https://forum.bugcrowd.com/t/researcher-resources-tools/167</a>  
 </ul>
 
 
 <h2>Encode decode algorithm</h2>
 <ul>
   <li><a href="https://github.com/blackthorne/Codetective">Codetective: determine the crypto/encoding algorithm used according to traces from its representation</a></li>
+  <li><a href="https://github.com/psypanda/hashID">hashID | hash-identifier</a></li>
 </ul>
 
 <h1>RCE</h1>
