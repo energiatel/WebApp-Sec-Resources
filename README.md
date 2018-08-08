@@ -559,5 +559,12 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
 
 <h2>Encrypted tokens</h2>
 <ul>
-  <li>TOdo</li>
+  <li>ECB Ciphers</li>
+  <li>CBC Ciphers (flip bit with burp intruder)</li>
+ </ul>
+
+<h2>Liberal cookie scope</h2>
+<ul>
+  <li>Cookie domain restrictions</li>
+  <li>Cookie path restrictions</li>
  </ul>
