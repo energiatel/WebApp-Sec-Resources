@@ -123,7 +123,7 @@ An interesting source to understand IF and HOW is possible a subdomain takeover
 
 <h2>Google dork</h2>
 <ul>
-  <li><intext:"There isn't a Github Pages site here" and intitle:"Site not found · GitHub Pages"/li>
+  <li>intext:"There isn't a Github Pages site here" and intitle:"Site not found · GitHub Pages"</li>
 </ul>
 
 <h1>Content discovery</h1>
