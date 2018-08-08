@@ -17,7 +17,7 @@
 
 <ul>
 <li><a href="https://forum.bugcrowd.com/t/researcher-resources-tools/167">https://forum.bugcrowd.com/t/researcher-resources-tools/167</a>
-
+  <li><a href="https://github.com/psypanda/hashID">hashID | hash-identifier</a></li>
 </ul>
 
 
