@@ -576,3 +576,59 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Cookie domain restrictions</li>
   <li>Cookie path restrictions</li>
  </ul>
+
+
+<h1>Attacking Access controls</h1>
+
+
+<h3>Common vulnerabilities</h3>
+<ul>
+  <li>Vertical access control: from user to admin</li>
+  <li>Horizontal access control: from user to user</li>
+  <li>Context--dependent access control: user should access only what it permitted to</li>
+ </ul>
+
+<h3>Completely unprotected functionality</h3>
+<ul>
+  <li>Anyone who knows admin URL can access it with full use of administrative functions</li>
+  <li>Links to administrative functions may be hide in javascript or in hidden fields or in comments</li>
+  <li>Administrative methods can be reached directly through API or javascript </li>
+ </ul>
+
+<h3>Identifier-based functions</h3>
+<ul>
+  <li>User who knows resources URL can access it even if not logged or if resources is owned by another user</li>
+ </ul>
+
+<h3>Multistage functions</h3>
+<ul>
+  <li>Application assumes that earlier stage has been completed when accessing to later stage</li>
+ </ul>
+
+<h3>Static files</h3>
+<ul>
+  <li>Can be accessed directly</li>
+ </ul>
+
+<h3>Platforms misconfiguration</h3>
+<ul>
+  <li>A function may be made to work with POST but still works with GET</li>
+  <li>Application handle request that use unrecognized HTTP methods by passing to GET</li>
+ </ul>
+
+<h2>Insecure access control methods</h2>
+
+<h3>Parameters based access control</h3>
+<ul>
+  <li>User role is determined via client transmitted parameters (hidden forms fields, cookie, query string parameters</li>
+ </ul>
+
+<h3>Referer based access control /h3>
+<ul>
+  <li>Application check referer to allow administrative functions use. If they comes from administration page they're allowed </li>
+ </ul>
+
+<h3>Location based access control </h3>
+<ul>
+  <li>Can be circumvented using proxy, VPN, client side manipulation of geolocation mechanism</li>
+ </ul>
