@@ -623,7 +623,7 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>User role is determined via client transmitted parameters (hidden forms fields, cookie, query string parameters</li>
  </ul>
 
-<h3>Referer based access control /h3>
+<h3>Referer based access control</h3>
 <ul>
   <li>Application check referer to allow administrative functions use. If they comes from administration page they're allowed </li>
  </ul>
