@@ -632,3 +632,25 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
 <ul>
   <li>Can be circumvented using proxy, VPN, client side manipulation of geolocation mechanism</li>
  </ul>
+ 
+<h2>Attacking access control</h2>
+
+<h3>Testing with different user accounts </h3>
+<ul>
+  <li>Test with Burp -> compare site maps</li>
+  <li>Test with different user level accounts (not logged user, logged user, admin user)</li>
+ </ul>
+
+<h3>Multistage processes</h3>
+<ul>
+  <li>Complete each stage with high privilege account. After use "request in browser" features to request each stage with lower privileges account to test for access control and with higher privileges to test if a stage is reacheable without earlier stages</li>
+ </ul>
+
+<h3>Testing with limited access </h3>
+<ul>
+  <li>Try to add parameters such as admin=true to GET or POST requests</li>
+  <li>Try removing or modifying Refer parameter to check if application trust this header in unsafe way</li>
+  <li>Check client side html and script for hidden functionality</li>
+  <li>Every times application use any kind of identifiers (document ID, account number, order references) to select a resource, attempt to discover identifier for resources to which access is unauthorized</li>
+  <li>Try to generate a series of identifier (for example by creating multiple documents) to discover identifiers mean of creation</li>
+ </ul>
