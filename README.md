@@ -639,7 +639,8 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
 <ul>
   <li>Test with Burp -> compare site maps</li>
   <li>Test with different user level accounts (not logged user, logged user, admin user)</li>
-  <li>Test with <a href="https://github.com/nccgroup/AutoRepeater">Burp Suite AutoRepeater</a></li>
+  <li>Test with <a href="https://github.com/wuntee/BurpAuthzPlugin">Burp Suite BurpAuthzPlugin</a></li>
+  <li>Test with <a href="https://github.com/nccgroup/AutoRepeater">Burp Suite AutoRepeater plugin</a></li>
  </ul>
 
 <h3>Multistage processes</h3>
