@@ -648,7 +648,7 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Complete each stage with high privilege account. After use "request in browser" features to request each stage with lower privileges account to test for access control and with higher privileges to test if a stage is reacheable without earlier stages</li>
  </ul>
 
-<h3>Testing with limited access </h3>
+<h3>Testing with limited access</h3>
 <ul>
   <li>Try to add parameters such as admin=true to GET or POST requests</li>
   <li>Try removing or modifying Refer parameter to check if application trust this header in unsafe way</li>
@@ -656,3 +656,8 @@ wget -t 1 -T 5 http://${ipa}/phpinfo.php; done &</pre></li>
   <li>Every times application use any kind of identifiers (document ID, account number, order references) to select a resource, attempt to discover identifier for resources to which access is unauthorized</li>
   <li>Try to generate a series of identifier (for example by creating multiple documents) to discover identifiers mean of creation</li>
  </ul>
+
+<h3>Testing restrictions on HTTP methods</h3>
+<ul>
+  <li>Using high privileged user to test if changing HTTP methods, request are still carried out. Then test with low privileged user to check if restrictions applied based on privileges are still validated when HTTP methods are changed.</li>
+</ul>
